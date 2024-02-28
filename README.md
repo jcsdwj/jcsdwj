@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi👋, I'm Wan Jing
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=jcsdwj&show_icons=true&theme=dark&count_private=true)
 
