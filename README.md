@@ -23,6 +23,8 @@
   </picture>
 </div>
 
+### My Github Contribution
+![](https://raw.githubusercontent.com/jcsdwj/jcsdwj/main/assets/github-contribution-grid-snake.svg)
 
 ### Hi🏀, I'm Wan Jing
 
