@@ -30,14 +30,14 @@
 ### 📁 项目 Project
 
 ### 🏢 工作经历 Work Experience
-<img align="right" width="88" src="./img/上汽通用.png" />
+<img align="right" width="80" src="./img/上汽通用.png" />
 
 - [上汽通用汽车有限公司](https://www.saic-gm.com/www/) &emsp; 📌 2022-07-05 —— Now
 
   - 工作岗位：软件开发工程师
   - 工作内容：品牌指标一体化项目,售后服务优化项目,凯迪拉克数据分析项目;Java开发
 
-<img align="right" width="88" src="./img/海加网络.png" />
+<img align="right" width="80" src="./img/海加网络.png" />
 
 - [海加网络科技有限公司](http://www.highguard.com.cn/) &emsp; 📌 2019-07-01 —— 2019-08-31
 
@@ -45,13 +45,13 @@
   - 工作内容：集中文印项目;C++开发，Qt开发
 
 ### 🏫 学习经历 Study Experience
-<img align="right" width="88" src="./img/苏州大学.png" />
+<img align="right" width="80" src="./img/苏州大学.png" />
 
 - [苏州大学(计算机科学与技术学院)](https://scst.suda.edu.cn/) &emsp; 📌 2019-09-01 —— 2022-06-30
   - 专业：计算机技术
   - 研究方向：倒排索引压缩,DHT网络(磁力链接)
 
-<img align="right" width="88" src="./img/江西财经大学.png" /> 
+<img align="right" width="80" src="./img/江西财经大学.png" /> 
 
 - [江西财经大学(软件与物联网工程学院)](https://software.jxufe.edu.cn/) &emsp; 📌 2015-09-01 —— 2019-06-30
   - 专业：软件工程
