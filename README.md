@@ -25,6 +25,9 @@
 
 ### Hi🏀, I'm Wan Jing
 
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jcsdwj&theme=merko)](https://github.com/jcsdwj/github-readme-stats)
+
+
 ### 🏢 Work Experience
 <img align="right" width="88" src="./img/上汽通用.png" />
 
@@ -49,7 +52,7 @@
 
 <img align="right" width="88" src="./img/江西财经大学.png" /> 
 
-- [江西财经大学(软件与物联网工程学院)](https://software.jxufe.edu.cn/) &emsp; 📌 2015-09-01 —— 2019-6-30
+- [江西财经大学(软件与物联网工程学院)](https://software.jxufe.edu.cn/) &emsp; 📌 2015-09-01 —— 2019-06-30
   - 专业：软件工程
   - 主修课程：数据结构，操作系统，计算机网络
 
