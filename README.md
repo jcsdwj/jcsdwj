@@ -27,8 +27,9 @@
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jcsdwj&theme=merko)](https://github.com/jcsdwj/github-readme-stats)
 
+### 📁 项目 Project
 
-### 🏢 Work Experience
+### 🏢 工作经历 Work Experience
 <img align="right" width="88" src="./img/上汽通用.png" />
 
 - [上汽通用汽车有限公司](https://www.saic-gm.com/www/) &emsp; 📌 2022-07-05 —— Now
@@ -43,7 +44,7 @@
   - 工作岗位：C++实习工程师
   - 工作内容：集中文印项目;C++开发，Qt开发
 
-### 🏫 Study Experience
+### 🏫 学习经历 Study Experience
 <img align="right" width="88" src="./img/苏州大学.png" />
 
 - [苏州大学(计算机科学与技术学院)](https://scst.suda.edu.cn/) &emsp; 📌 2019-09-01 —— 2022-06-30
@@ -56,3 +57,5 @@
   - 专业：软件工程
   - 主修课程：数据结构，操作系统，计算机网络
 
+### 🥂 交个朋友 Make A Friend
+E-mail: 798989631@qq.com
