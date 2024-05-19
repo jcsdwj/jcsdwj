@@ -27,7 +27,10 @@
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jcsdwj&theme=merko)](https://github.com/jcsdwj/github-readme-stats)
 
-### 📁 项目 Project
+![Anurag's Most used languages](https://github-readme-stats.vercel.app/api/top-langs?username=jcsdwj&show_icons=true&count_private=true&theme=gotham)
+
+
+### 📁 项目 Project（敬请期待）
 
 ### 🏢 工作经历 Work Experience
 <img align="right" width="80" src="./img/上汽通用.png" />
@@ -56,6 +59,7 @@
 - [江西财经大学(软件与物联网工程学院)](https://software.jxufe.edu.cn/) &emsp; 📌 2015-09-01 —— 2019-06-30
   - 专业：软件工程
   - 主修课程：数据结构，操作系统，计算机网络
+
 
 ### 🥂 交个朋友 Make A Friend
 E-mail: 798989631@qq.com
