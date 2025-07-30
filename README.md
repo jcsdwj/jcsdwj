@@ -5,21 +5,23 @@
 <!-- 动态打字效果 -->
 <div>
     <a href="https://space.bilibili.com/326379142?spm_id_from=333.1007.0.0">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2Cx%20World%22);教练，我想打篮球😭&center=true&size=27" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C%20World%22);教练，我想打篮球😭&center=true&size=27" alt="动态打字效果" />
     </a>
-  </div>
+</div>
 
    <!-- some pictures 一些图片 -->
-   <source media="(prefers-color-scheme: dark)" srcset="img\摸鱼.webp" />
-    <source media="(prefers-color-scheme: light)" srcset="img\摸鱼.webp" height="225px" />
-    <img src="img\摸鱼.webp" />
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="img/摸鱼.webp" />
+     <source media="(prefers-color-scheme: light)" srcset="img/摸鱼.webp" />
+     <img src="img/摸鱼.webp" alt="摸鱼" height="225px" />
+   </picture>
  
 
   <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-snake-contrib\github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="profile-snake-contrib\github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="profile-snake-contrib\github-contribution-grid-snake-dark.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="profile-snake-contrib/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
