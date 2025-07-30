@@ -5,7 +5,7 @@
 <!-- 动态打字效果 -->
 <div>
     <a href="https://space.bilibili.com/326379142?spm_id_from=333.1007.0.0">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C%20World%22);教练，我想打篮球😭&center=true&size=27" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2Cx%20World%22);教练，我想打篮球😭&center=true&size=27" />
     </a>
   </div>
 
@@ -33,9 +33,14 @@
 ### 📁 项目 Project（敬请期待）
 
 ### 🏢 工作经历 Work Experience
+<img align="right" width="80" src="./img/喜马.jpg" />
+- [上海喜马拉雅科技有限公司](https://www.ximalaya.com/) &emsp; 📌 2025-01-02 —— Now
+  - 工作岗位：服务端开发工程师
+  - 工作内容：喜马拉雅儿童 APP 服务端开发; Java开发
+
 <img align="right" width="80" src="./img/上汽通用.png" />
 
-- [上汽通用汽车有限公司](https://www.saic-gm.com/www/) &emsp; 📌 2022-07-05 —— Now
+- [上汽通用汽车有限公司](https://www.saic-gm.com/www/) &emsp; 📌 2022-07-05 —— 2024-07-12
 
   - 工作岗位：软件开发工程师
   - 工作内容：品牌指标一体化项目,售后服务优化项目,凯迪拉克数据分析项目;Java开发
