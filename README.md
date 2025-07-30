@@ -34,9 +34,10 @@
 
 ### 🏢 工作经历 Work Experience
 <img align="right" width="80" src="./img/喜马.jpg" />
+
 - [上海喜马拉雅科技有限公司](https://www.ximalaya.com/) &emsp; 📌 2025-01-02 —— Now
   - 工作岗位：服务端开发工程师
-  - 工作内容：喜马拉雅儿童 APP 服务端开发; Java开发
+  - 工作内容：喜马拉雅儿童 APP 服务端开发; Java开发  
 
 <img align="right" width="80" src="./img/上汽通用.png" />
 
