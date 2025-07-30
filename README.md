@@ -70,4 +70,17 @@
 
 
 ### 🥂 交个朋友 Make A Friend
-E-mail: 798989631@qq.com
+E-mail: 798989631@qq.com  
+Vx：crazy4wj
+
+### 👂 目前在听 Music Or Book
+《明朝那些事》[https://m.ximalaya.com/album/13507836?from=pc](https://m.ximalaya.com/album/13507836?from=pc)  
+《水月》[https://www.yymp3.com/Play/2627/30558.htm](https://www.yymp3.com/Play/2627/30558.htm)
+
+### 📚 正在阅读的书籍
+《富爸爸穷爸爸》
+
+
+
+
+
