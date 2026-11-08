@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title description">
+  <title id="title">Wj · Cosmic Developer Space</title>
+  <desc id="description">A neon starfield, an orbiting planet and a local animated Hello World terminal.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#070c1c"/>
+      <stop offset=".55" stop-color="#10102a"/>
+      <stop offset="1" stop-color="#040b16"/>
+    </linearGradient>
+    <radialGradient id="nebula">
+      <stop stop-color="#763ed0" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#763ed0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueNebula">
+      <stop stop-color="#158fa9" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#158fa9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="heading" x2=".8" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#d9faff"/>
+      <stop offset="1" stop-color="#60ddeb"/>
+    </linearGradient>
+    <radialGradient id="planet" cx=".27" cy=".22" r=".9">
+      <stop stop-color="#72e7ef"/>
+      <stop offset=".24" stop-color="#236b8f"/>
+      <stop offset=".6" stop-color="#142647"/>
+      <stop offset="1" stop-color="#050b17"/>
+    </radialGradient>
+    <linearGradient id="orbit">
+      <stop stop-color="#b880ff"/>
+      <stop offset=".5" stop-color="#6ef4ee"/>
+      <stop offset="1" stop-color="#6462ff"/>
+    </linearGradient>
+    <linearGradient id="grid" x2="0" y2="1">
+      <stop stop-color="#3a8cbd" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3a8cbd" stop-opacity=".32"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="panel"><rect width="1200" height="380" rx="18"/></clipPath>
+    <clipPath id="planetClip"><circle cx="960" cy="178" r="79"/></clipPath>
+    <clipPath id="typingClip"><rect class="typing-window" y="-22" width="348" height="30"/></clipPath>
+  </defs>
+  <style>
+    /* Keep motion inside the SVG: GitHub README images cannot run page scripts. */
+    .star { animation: twinkle 5s ease-in-out infinite alternate; }
+    .star.delayed { animation-delay: -2.5s; }
+    .orbit { animation: orbit-dash 30s linear infinite; }
+    .planet { animation: float 9s ease-in-out infinite; }
+    .beacon { animation: twinkle 2s ease-in-out infinite alternate; }
+    .typing-window { animation: typing 8s steps(29, end) infinite; }
+    .cursor { animation: cursor-position 8s steps(29, end) infinite, blink 1s step-end infinite; }
+    @keyframes twinkle { from { opacity: .28; } to { opacity: 1; } }
+    @keyframes orbit-dash { to { stroke-dashoffset: -320; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @keyframes typing { 0%, 8% { width: 0; } 45%, 78% { width: 348px; } 94%, 100% { width: 0; } }
+    @keyframes cursor-position { 0%, 8% { transform: translateX(0); } 45%, 78% { transform: translateX(348px); } 94%, 100% { transform: translateX(0); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    /* A readable still frame remains available when reduced motion is preferred. */
+    @media (prefers-reduced-motion: reduce) {
+      .star, .orbit, .planet, .beacon, .typing-window, .cursor { animation: none; }
+      .cursor { transform: translateX(348px); }
+    }
+  </style>
+  <g clip-path="url(#panel)">
+    <rect width="1200" height="380" fill="url(#background)"/>
+    <ellipse cx="960" cy="130" rx="370" ry="270" fill="url(#nebula)"/>
+    <ellipse cx="700" cy="355" rx="510" ry="220" fill="url(#blueNebula)"/>
+    <g fill="#9bb9dc">
+      <circle cx="49" cy="28" r="1"/><circle cx="156" cy="42" r="1"/><circle cx="267" cy="21" r=".8"/>
+      <circle cx="388" cy="52" r="1"/><circle cx="475" cy="23" r=".7"/><circle cx="600" cy="43" r="1.1"/>
+      <circle cx="678" cy="95" r=".9"/><circle cx="740" cy="28" r="1"/><circle cx="822" cy="57" r=".8"/>
+      <circle cx="895" cy="26" r="1"/><circle cx="1039" cy="32" r="1"/><circle cx="1111" cy="72" r=".8"/>
+      <circle cx="1164" cy="123" r="1"/><circle cx="46" cy="229" r=".9"/><circle cx="206" cy="336" r="1"/>
+      <circle cx="413" cy="306" r=".8"/><circle cx="555" cy="135" r="1"/><circle cx="631" cy="202" r=".7"/>
+      <circle cx="714" cy="295" r="1"/><circle cx="801" cy="229" r="1"/><circle cx="1098" cy="280" r=".8"/>
+      <circle cx="1155" cy="335" r="1"/><circle cx="862" cy="328" r="1"/><circle cx="590" cy="342" r=".8"/>
+    </g>
+    <g class="star" fill="#6ef4ee">
+      <circle cx="580" cy="80" r="1.8"/><circle cx="769" cy="166" r="1.4"/><circle cx="1132" cy="219" r="1.6"/>
+      <path d="M1069 76h10m-5-5v10" stroke="#6ef4ee" stroke-width="1"/>
+    </g>
+    <g class="star delayed" fill="#c495ff">
+      <circle cx="700" cy="48" r="1.6"/><circle cx="842" cy="280" r="1.7"/><circle cx="1078" cy="317" r="1.4"/>
+      <path d="M738 237h10m-5-5v10" stroke="#c495ff" stroke-width="1"/>
+    </g>
+    <g fill="none" stroke="url(#grid)" stroke-width="1">
+      <path d="M0 310h1200M0 337h1200M0 371h1200"/>
+      <path d="M600 270 60 380M600 270 240 380M600 270 420 380M600 270 600 380M600 270 780 380M600 270 960 380M600 270 1140 380"/>
+    </g>
+    <path d="M32 60V32h28M1140 32h28v28M32 320v28h28M1140 348h28v-28" fill="none" stroke="#53dce6" stroke-opacity=".65"/>
+    <rect x="68" y="66" width="25" height="3" rx="1.5" fill="#6ef4ee"/>
+    <text x="108" y="73" fill="#8ca2be" font-family="Consolas, monospace" font-size="12" letter-spacing="3">PERSONAL SPACE / JCSDWJ</text>
+    <text x="65" y="174" fill="url(#heading)" font-family="Segoe UI, Arial, sans-serif" font-size="124" font-weight="800" letter-spacing="3">Wj</text>
+    <text x="70" y="223" fill="#a2aec8" font-family="Consolas, monospace" font-size="17" letter-spacing="2">SOFTWARE DEVELOPER · AI EXPLORER</text>
+    <g transform="translate(69 255)">
+      <rect width="470" height="50" rx="8" fill="#07101d" fill-opacity=".8" stroke="#27405a"/>
+      <text x="18" y="32" fill="#bc88f9" font-family="Consolas, monospace" font-size="20">&gt;</text>
+      <g transform="translate(43 32)">
+        <text clip-path="url(#typingClip)" fill="#6ef4ee" font-family="Consolas, monospace" font-size="20">console.log('Hello, World!');</text>
+        <rect class="cursor" x="4" y="-18" width="8" height="22" rx="1" fill="#6ef4ee"/>
+      </g>
+    </g>
+    <g class="planet">
+      <ellipse cx="960" cy="178" rx="160" ry="58" transform="rotate(-24 960 178)" fill="none" stroke="#8e75f8" stroke-opacity=".16" stroke-width="10" filter="url(#glow)"/>
+      <ellipse cx="960" cy="178" rx="160" ry="58" transform="rotate(-24 960 178)" fill="none" stroke="url(#orbit)" stroke-opacity=".4" stroke-width="1.3"/>
+      <circle cx="960" cy="178" r="85" fill="none" stroke="#6ef4ee" stroke-opacity=".2" stroke-width="5" filter="url(#glow)"/>
+      <circle cx="960" cy="178" r="79" fill="url(#planet)" stroke="#80d9ec" stroke-opacity=".45"/>
+      <g clip-path="url(#planetClip)" fill="none" stroke="#86d9e7" stroke-opacity=".13">
+        <path d="M867 136q78-40 176 8M873 150q82-40 174 8M880 168q87-35 171 12M884 188q96-29 163 17M890 210q92-15 149 26"/>
+        <path d="M924 96q-20 82 54 160M942 93q-23 85 59 161" stroke-opacity=".08"/>
+      </g>
+      <path d="M814 230c58 3 190-47 280-99" fill="none" stroke="url(#orbit)" stroke-width="3"/>
+      <ellipse class="orbit" cx="960" cy="178" rx="184" ry="98" transform="rotate(-24 960 178)" fill="none" stroke="#ad92ff" stroke-opacity=".36" stroke-dasharray="4 12"/>
+      <circle class="beacon" cx="1094" cy="131" r="5" fill="#6ef4ee"/>
+      <circle class="beacon" cx="1094" cy="131" r="9" fill="#6ef4ee" fill-opacity=".12"/>
+    </g>
+    <text x="869" y="318" fill="#7487a6" font-family="Consolas, monospace" font-size="10" letter-spacing="3">AI / CLOUD / INFINITE IDEAS</text>
+    <circle class="beacon" cx="70" cy="339" r="3" fill="#6ef4ee"/>
+    <text x="82" y="343" fill="#69869e" font-family="Consolas, monospace" font-size="10" letter-spacing="2">HELLO FROM MY CORNER OF THE INTERNET</text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="379" rx="18" fill="none" stroke="#29364c"/>
+</svg>
